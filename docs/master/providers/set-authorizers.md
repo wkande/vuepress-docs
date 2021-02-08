@@ -2,9 +2,6 @@
 title: Setting Authorizers
 ---
 
-# {{ $frontmatter.title }}
-
-
 We are assuming that you have [configured your Airnode](/provider-guides/configuring-airnode.md) (and set `endpointId`s of your endpoints), and [deployed your Airnode](/provider-guides/deploying-airnode.md) and received your `providerId` in your receipt file.
 Requesters who know your `providerId` and `endpointId`s should now be able to make requests to your endpoints.
 However, you probably do not want to serve the entire public with your Airnode, but rather
@@ -54,5 +51,3 @@ If you would like to contribute to this set of authorizer contracts, please join
 
 Your Airnode is completly set up now.
 The following guides will be on how a requester would be able to make requests to it.
-
-[Home](/README.md#provider-guides)
